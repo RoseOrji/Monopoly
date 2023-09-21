@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border: 1px solid black;
+    width: 40vw;
+    height: 7vh;
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: rgba(127, 255, 212, 0.61);
+    /* border: none; */
+
+}
+
+table, tr, td{
+    border: 1px solid black;
+    width: 40vw;
+    height: 8vh;
+    
+}
+
+table tr td{
+    position: relative;
+}
+
+.color1{
+    max-width: 5vw;
+    height: 2vh; 
+    /* position: absolute; */
+    background-color: rgba(255, 0, 0, 0.733);
+    /* margin-top:80%; */
+    transform: translateY(150%);
+}
+
+.color2{
+    max-width: 5vw;
+    height: 2vh; 
+    /* position: absolute; */
+    background-color: rgba(217, 255, 0, 0.733);
+    /* margin-top: 80%; */
+    transform: translateY(150%);
+}
+
+.color3{
+    max-width: 1vw;
+    height: 8vh; 
+    background-color: rgba(255, 166, 0, 0.822);
+    /* margin-top: 40% */
+    transform: translate(253%);
+}
+
+.color4{
+    max-width: 1vw;
+    height: 8vh; 
+    background-color: rgba(255, 0, 179, 0.822);
+    /* margin-top: 40% */
+    transform: translate(253%);
+}
+
+.color5{
+    max-width: 5vw;
+    height: 2vh; 
+    background-color: rgba(135, 207, 235, 0.959);
+    /* margin-top: -52% */
+    transform: translateY(-150%);
+}
+
+.color6{
+    max-width: 5vw;
+    height: 2vh; 
+    background-color: rgba(165, 42, 42, 0.836);
+    /* margin-top: -52% */
+    transform: translateY(-150%);
+}
+
+.color7{
+    max-width: 1vw;
+    height: 8vh; 
+    background-color: rgba(93, 93, 247, 0.966);
+    /* margin-top: -35% */
+}
+
+.color8{
+    max-width: 1vw;
+    height: 8vh; 
+    background-color: rgba(0, 128, 0, 0.815);
+}
+
+.clip img{
+    position: absolute;
+    width: 3.5vw;
+    height: 5.5vh;
+    top: 20%;
+    left: -1%;
+    transform: rotate(-205deg);
+
+}
+
+.blue img{
+    position: absolute;
+    width: 7vw;
+    height: 7vh;
+    top: 8%;
+    right: -25;
+    transform: rotate(180deg);
+}
+
+.train1 img{
+    position: absolute;
+    width: 5vw;
+    height: 5vh;
+    top: 20%;
+    right: -19%;
+}
+
+.faucet img{
+    position: absolute;
+    width: 7vw;
+    height: 11.5vh;
+    top: -25%;
+    right: -50%;
+    transform: rotate(180deg);
+}
+
+.jail1 img{
+    position: absolute;
+    width: 4.5vw;
+    height: 4.5vh;
+    top: 20%;
+    right: -8%;
+    transform: rotate(-70deg);
+}
+
+.chest img{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    /* top: -10%; */
+    /* left: -1.5%; */
+    right: 88.5%;
+    bottom: -2%;
+    /* padding: 6px; */
+    transform: rotate(90deg);
+}
+
+.train2 img{
+    width: 4.5vw;
+    height: 5vh;
+    position: absolute;
+    top: 20%;
+    left: -2%;
+    transform: rotate(90deg); 
+}
+
+.bulb img{
+    width: 4.5vw;
+    height: 4.5vw;
+    position: absolute;
+    bottom: -15%;
+    left: -2%;
+    transform: rotate(90deg); 
+    
+}
+
+.jail img{
+    width: 6vw;
+    height: 5vw;
+    position: absolute;
+    bottom: -18%;
+    /* right:-28% ; */
+    left: -35%;
+    transform: rotate(90deg);
+}
+
+.pink img{
+    width: 5vw;
+    height: 4.5vw;
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+
+}
+
+.train3 img{
+    position: absolute;
+    width: 5vw;
+    height: 5vh;
+    top: 20%;
+    right: -19%;
+}
+
+.chest2 img{
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    left: -1.5%;
+    bottom: -2%;
+    transform: rotate(-180deg);
+}
+
+.go img{
+    width: 5vw;
+    height: 6vw;
+    position: absolute;
+    bottom: -15%;
+    /* left: 65%; */
+    right: -18%;
+    padding: 13px;
+}
+
+.ring img{
+    width: 4.5vw;
+    height: 4.4vw;
+    position: absolute;
+    bottom: -7.5%;
+    left: -15%;
+    transform: rotate(-90deg);
+}
+
+.orange img{
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    bottom: -15%;
+    left: -15%;
+    padding: 10px;
+    transform: rotate(-90deg);
+}
+
+.train4 img{
+    width: 4vw;
+    height: 3vw;
+    position: absolute;
+    /* left: 48%; */
+    bottom: 5%;
+    transform: rotate(90deg);
+}
+
+.chest3 img{
+   width: 4vw;
+    height: 4vw;
+    position: absolute;
+    left: -6%;
+    bottom: -5%;
+    transform: rotate(90deg);
+}
+
+table tr td .bg{
+    width: 80%;
+    position: absolute;
+    left: 11%;
+    top: 38%;
+    transform: rotate(-35deg); 
+}
+
+table tr td .quest{
+    width: 30%;
+    position: absolute;
+    bottom: 8%;
+    right: 3%;
+    transform: rotate(-35deg);
+}
+
+table tr td .box{
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transform: rotate(-35deg);
+}
